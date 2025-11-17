@@ -25,6 +25,7 @@ public static void main(String[] args) {
         e.printStackTrace();
     }
 
-    System.out.println("Final count: " + example.getCount());
-}
+    System.out.println("Final count: " + counter.getCount());
+    System.out.println("Blocco synchronized: " + example.getCount());
+    }
 }

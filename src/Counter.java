@@ -6,6 +6,8 @@ public class Counter {
     }
 
     public int getCount() {
+        System.out.println("Stampa");
         return count;
+
     }
 }
