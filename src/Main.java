@@ -13,15 +13,18 @@ public static void main(String[] args) {
 
     t1.start();
     t2.start();
+    t3.start();
+    t4.start();
 
     try {
         t1.join();
         t2.join();
+        t3.join();
+        t4.join();
     } catch (InterruptedException e) {
         e.printStackTrace();
     }
 
-    System.out.println("Final count: " + counter.getCount());
-        
-    }
+    System.out.println("Final count: " + example.getCount());
+}
 }
