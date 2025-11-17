@@ -6,8 +6,17 @@ public class Counter {
     }
 
     public int getCount() {
-        System.out.println("Stampa");
+        System.out.println("Blocco non sincronizzato");
         return count;
 
+    }
+
+    public int run(){
+        int i = 0;
+        while ( i<5000){
+        i++;
+        //System.out.println(i);
+        return i;
+     }
     }
 }
