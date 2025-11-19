@@ -11,12 +11,12 @@ public class Counter {
 
     }
 
-    public int run(){
+    public void run(){
         int i = 0;
         while ( i<5000){
+            increment();
         i++;
-        //System.out.println(i);
-        return i;
+
      }
     }
 }

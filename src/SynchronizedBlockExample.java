@@ -12,11 +12,4 @@ public class SynchronizedBlockExample {
         System.out.println("Blocco sincronizzato");
         return count;
     }
-    public void run(){
-        int i = 0;
-        while ( i<5000){
-            i++;
-            System.out.println(i);
-        }
-    }
 }

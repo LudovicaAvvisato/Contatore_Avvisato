@@ -3,7 +3,7 @@ public static void main(String[] args) {
     Counter counter = new Counter();
 
 
-    Thread t1 = new Thread(() -> counter.increment());
+    Thread t1 = new Thread(() -> counter.run());
 
     SynchronizedBlockExample sincro = new SynchronizedBlockExample();
 
